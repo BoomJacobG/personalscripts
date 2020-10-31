@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo pacman -Syyu --noconfirm
+clear
+echo '--------------------------------------------------------------------------------'
+grep "X Driver" /var/log/Xorg.0.log
+uname -r
+$SHELL --version
+echo '--------------------------------------------------------------------------------'
+echo "done!"
+ 
