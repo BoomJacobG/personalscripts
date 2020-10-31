@@ -7,7 +7,7 @@ while true; do
     case $yn in
         [Yy]* ) yay -Rns pfetch --noconfirm; break;;
         [Nn]* ) yay -Rns pfetch --noconfirm; break;;
-        * ) echo "Please answer yes or no.";;
+        * ) echo "do you wish to continue?";;
     esac
 done
 clear
