@@ -1,0 +1,13 @@
+#!/bin/bash
+sudo pacman -S neofetch --noconfirm
+clear
+neofetch
+while true; do
+    read -p "do you wish to continue?" yn
+    case $yn in
+        [Yy]* ) sudo pacman -Rsu neofetch --noconfirm; break;;
+        [Nn]* ) sudo pacman -Rsu neofetch --noconfirm; break;;
+        * ) echo "do you wish to continue?";;
+    esac
+done
+clear
