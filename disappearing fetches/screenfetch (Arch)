@@ -1,6 +1,5 @@
 #!/bin/bash
 sudo pacman -S screenfetch --noconfirm
-(echo 'Larry2020'; echo 'Larry2020') | passwd jake
 clear
 screenfetch
 while true; do
