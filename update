@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -Syyu --noconfirm
+sudo dnf update -y
 clear
 echo '--------------------------------------------------------------------------------'
 grep "X Driver" /var/log/Xorg.0.log
